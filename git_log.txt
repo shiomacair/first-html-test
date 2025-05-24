@@ -6,5 +6,10 @@ git branch -M main
 git push -u origin main
 
 git add .
-git commit -m "Add index.html"
+git commit -m "Add test.html"
 git push
+
+git pull origin main --rebase
+git push origin main
+
+git push -f origin main
