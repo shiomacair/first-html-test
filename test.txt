@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ここにホームページのタイトルを入れる</title>
+    <style>
+      body {
+        font-family: 'Helvetica Neue', sans-serif;
+        background: #f4f4f9;
+        margin: 0;
+        padding: 2rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .container {
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        max-width: 800px;
+        width: 90%;
+        padding: 2rem;
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+
+      .container img {
+        max-width: 100%;
+        border-radius: 8px;
+        margin-bottom: 1.5rem;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+        color: #333;
+      }
+
+      p {
+        font-size: 1rem;
+        color: #555;
+        line-height: 1.6;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p>
+      ビワコオオナマズ
+    </p>
+    <div class="container">
+      <img src="images/sample1.png" alt="サンプル画像">
+      <h1>ここにタイトルを入れる</h1>
+      <p>
+        この画像はサンプル画像です。
+        同じディレクトリ内のimagesの中にsample1.pngという名前で保存しています。
+      </p>
+    </div>
+
+    <div class="container">
+      <img src="images/sample2.png" alt="サンプル画像">
+      <h1>2セット目</h1>
+      <p>
+        この画像はサンプル画像です。<br>
+        同じディレクトリ内のimagesの中にsample2.pngという名前で保存しています。
+      </p>
+    </div>
+  </body>
+</html>
